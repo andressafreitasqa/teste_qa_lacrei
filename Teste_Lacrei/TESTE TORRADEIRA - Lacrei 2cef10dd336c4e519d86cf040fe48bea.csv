@@ -1,0 +1,59 @@
+﻿Plano de Teste,Referência do documento Link,Property,Property 1
+Analista de Teste,Andressa Caroline Miranda de Freitas,,
+Data de Início,10/05/2022,,
+Prioridade,Prioridade,,
+Severidade,Alta,,
+Propósito,O propósito é registrar o projeto e as estratégias utilizadas para testar o produto.,,
+Público Alvo,"Aplicável aos responsáveis pelo teste da Lacrei e, ainda, aos possíveis consumidores do produto.",,
+Escopo,Detalhamento de testes e os planos aplicáveis com a respectiva estratégia.,,
+Referências,[1] Formulário disponibilizado pelo portal Lacrei para avaliação. . Localização.  [2] https://www.notion.so/d8d65639ab3b403b940dbb107325b0ca,,
+,,,
+Estratégia de teste (estágio),Teste de Sistema / Manual,,
+Estratégia de teste (tipos),"Funcional, Segurança, Desempenho, Usabilidade.",,
+Objetivo:,Validar os critérios necessário para implementação do produto e verificar se foram bem aplicados.,,
+,,,
+Especificação: Torradeira Black + Decker - vermelha.,"Torradeira T850V-B2 da Black&Decker para um café da manhã mais gostoso com pães quentinhos e tostados à sua maneira. O produto vem na cor vermelha com um design super moderno, seu corpo é termicamente isolado e com baixo consumo de energia. ",,
+Principais funções.,"Com 7 níveis de temperatura possibilitando tostar diversos pães, de acordo com a textura desejada, e 3 funções: cancelar, descongelar e aquecer. Com ampla abertura é ideal para fatias largas de pães, como italiano e integral.",,
+,,,
+"CT - 1: Dado que eu tenha a torradeira ligada na tomada /
+Quando a respectiva luz acender / Então ela deverá estar apta para o uso.","Teste: ligar torradeira
+Passo 1: ligar a torradeira na tomada
+Passo 2: verificar se alguma luz acende","Resultado esperado: torradeira ligada, com luzes acessas que indicam que está pronta para uso.","Resultado obtido:
+ a torradeira funcionou conforme o esperado."
+CT - 2: Dado que eu tenha a torradeira ligada / Quando eu colocar na temperatura um / Então ela deve aquecer na temperatura mínima.,"Teste: temperatura mínima
+Passo 1: ligar a torradeira na tomada
+Passo 2: rodar o botão para ajustar  a temperatura para 1
+Passo 3: colocar a fatia de pão 
+Passo 4: abaixar a alavanca
+Passo 5: verificar a tostagem
+",Resultado esperado: pão com tostagem leve.,"Resultado obtido:
+A torradeira se comportou conforme a temperatura escolhida."
+CT - 3: Dado que eu tenha torradeira ligada / Quando eu colocar na temperatura sete / Então ela deve aquecer na temperatura máxima.,"Teste: temperatura mínima
+Passo 1: ligar a torradeira na tomada
+Passo 2: rodar o botão para ajustar  a temperatura para 7
+Passo 3: colocar a fatia de pão 
+Passo 4: abaixar a alavanca
+Passo 5: verificar a tostagem",Resultado esperado: pão com tostagem alta.,"Resultado obtido: 
+A torradeira se comportou conforme a temperatura escolhida."
+CT - 4: Dado que eu coloque um pão congelado na torradeira. Quando eu acionar a função descongelar. Então o pão deve ser descongelado.,"Teste: teste de descongelamento
+Passo 1: ligar a torradeira na tomada
+Passo 2: colocar a fatia de pão congelado
+Passo 3: abaixar a alavanca
+Passo 4: clicar no botão descongelar
+Passo 5: verificar se descongelou",Resultado esperado: o pão congelado deve descongelar após o acionamento da função,"Resultado obtido: 
+O pão descongelou como requerido."
+CT - 5: Dado que eu coloque um pão na torradeira. Quando eu acionar a função tostar. Então o pão deve ser tostado.,"Teste de tostagem
+Passo 1: ligar a torradeira na tomada
+Passo 2: colocar o pão na torradeira
+Passo 3: rodar o botão da temperatura
+Passo 4: abaixar a alavanca
+Passo 5: verificar a tostagem","Resultado esperado: o pão deve ser tostado, a depender da temperatura escolhida.","Resultado obtido:
+O pão foi tostado corretamente, dentro da temperatura escolhida."
+CT - 6: Dado que eu coloque um pão na torradeira. Quando atingir a temperatura máxima. Então ela deve acionar o isolamento de temperatura.,"Teste de isolamento de temperatura
+Passo 1: ligar a torradeira na tomada
+Passo 2: colocar o pão na torradeira
+Passo 3: rodar o botão da temperatura
+Passo 4: abaixar a alavanca
+Passo 5: verificar o isolamento de temperatura",Resultado esperado: a torradeira não deve externar a temperatura para o seu corpo.,"Resultado obtido:
+A torradeira, após ligada, não externou a temperatura para o seu corpo, conforme esperado."
+,,,
